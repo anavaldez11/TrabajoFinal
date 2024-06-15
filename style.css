@@ -1,0 +1,32 @@
+body {
+  
+  font-family: Montserrat;
+  background:url("fondo.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 30px;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #e2b596;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+}
+.choice {
+  margin: 10px 0;
+  padding: 10px;
+  background: #007BFF;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.choice:hover {
+  background: #ac724b;
+}
